@@ -9,8 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "main-color": "#FF8800",
+      },
+      backgroundImage: {
+        "login-background": "url('/images/login-background.avif')",
+        "home-image": "url('/images/home-image.webp')",
+      },
+      boxShadow: {
+        custom: "0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.2)",
       },
     },
   },
